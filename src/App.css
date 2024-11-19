@@ -1,0 +1,37 @@
+/* src/App.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+  @apply min-h-screen flex flex-col items-center;
+}
+
+.App-header {
+  @apply bg-gray-800 w-full p-4 text-white flex items-center justify-between;
+}
+
+.App-title {
+  @apply text-2xl font-bold;
+}
+
+.App-link {
+  @apply text-blue-400 hover:text-blue-600;
+}
+
+/* Styles for the table */
+.table-container {
+  @apply w-full max-w-4xl mx-auto mt-8 bg-white shadow-md rounded-lg overflow-hidden;
+}
+
+table {
+  @apply w-full text-left border-collapse;
+}
+
+th {
+  @apply bg-gray-200 text-gray-700 p-4;
+}
+
+td {
+  @apply border border-gray-300 p-4;
+}
